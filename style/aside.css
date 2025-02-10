@@ -1,8 +1,13 @@
 .sidebar {
-    border: 2px solid black;
+    position: fixed;
+    overflow: hidden;
+    /* border: 2px solid black; */
     width: 250px;
     height: 100vh;
     background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sidebar__logo {
@@ -31,7 +36,7 @@
     display: grid;
     grid-template-columns: 202px;
     grid-auto-rows: 47px 47px 47px 47px 139px 47px;
-    gap: 10px;
+    gap: 6px;
     
 }
 
@@ -47,6 +52,7 @@
 }
 
 .sidebar__end-section {
+    margin-top: 500x;
     position: absolute;
     top: 85vh;
     left: 24px;
