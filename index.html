@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/aside.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/main.css">
     <title>Practicle-Test</title>
 </head>
 <body>
+   <div class="body">
     <aside>
         <div class="sidebar">
             <div class="sidebar__logo">
@@ -67,5 +69,50 @@
             </div>
         </div>
     </aside>
+    <main>
+        <div class="main">
+            <div class="main__navbar">
+                <div class="Recipients__left-sec">
+                    Recipients
+                </div>
+                <div class="navbar__right-sec">
+                    <div class="right-sec__search-logo">
+                        <a href="#"><img src="svgs/Search.svg"></a>
+                    </div>
+                    <div class="right-sec__notification">
+                        <a href="#"><img src="svgs/notification.svg"></a>
+                    </div>
+                    <div class="right-sec__profile">
+                        <div class="profile__photo">
+                            <a href="#"><img src="svgs/Ellipse 73 (1).svg"></a>
+                            <span>Alesia K.</span>
+                        </div>
+                        <div class="profile--dropdown">
+                            <a href="#"><img src="svgs/chevron-down.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__sec1">
+                <div class="sec1__search-bar">
+                    <div class="sec1__search-icon">
+                        <a href="#"><img src="svgs/Search.svg"></a>
+                    </div>
+                    <input type="text" placeholder="Search by recipients">
+                </div>
+                <div class="sec1__button">
+                    <button id="add-new-btn"> 
+                        <a href="#"><img src="svgs/Plus.svg"></a>
+                        Add New
+                    </button>
+                    <button id="filters-btn">
+                        <a href="#"><img src="svgs/Filter.svg"></a>
+                        Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+   </div>
 </body>
 </html>

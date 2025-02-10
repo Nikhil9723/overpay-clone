@@ -1,0 +1,119 @@
+.main {
+    min-width: calc(100vw - 14.9vw);
+    height: 100%;
+    border: 2px solid red;
+}
+
+.main__navbar {
+    margin: 40px 40px;
+    max-width: 100%;
+    /* width: 100%; */
+    height: 48px;
+    /* border: 2px solid black; */
+    /* margin-top: 50px; */
+    color: #1A202C;
+    font-weight: 800;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Recipients__left-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__right-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.right-sec__profile {
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__photo {
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.main__sec1 {
+    height: 48px;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    margin: 0px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1__search-bar {
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    width: 295px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    padding-left: 18.31px;
+}
+
+.sec1__search-icon {
+    height: 20px;
+    width: 20px;
+}
+
+input {
+    outline: none;
+    border: none;
+    /* outline: none; */
+}
+
+.sec1__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#add-new-btn {
+    border: none;
+    width: 129px;
+    height: 48px;
+    border-radius: 12px;
+    background-color:  #194BFB;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    gap: 8px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+#filters-btn {
+    width: 103px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    background-color: #E2E8F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    gap: 8px;
+    font-weight: 800;
+    font-size: 14px;
+}
