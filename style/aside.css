@@ -1,22 +1,99 @@
 .sidebar {
     border: 2px solid black;
     width: 250px;
-    height: 1024px;
+    height: 100vh;
+    background-color: #FAFAFA;
 }
 
 .sidebar__logo {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 132px;
     height: 28px;
     position: absolute;
     top: 44px;
     left: 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2px;
 }
 
 #logo__title {
+    width: 100%;
     color: #1A202C;
+    font-size: 22.5px;
+    font-weight: bold;
+}
+
+.sidebar__menu {
+    /* border: 2px solid red; */
+    width: 202px;
+    height: 434px;
+    position: absolute;
+    top: 144px;
+    left: 24px;
+    display: grid;
+    grid-template-columns: 202px;
+    grid-auto-rows: 47px 47px 47px 47px 139px 47px;
+    gap: 10px;
+    
+}
+
+.menu__item-style {
+    /* border: 1px solid red; */
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #718096;
+}
+
+.sidebar__end-section {
+    position: absolute;
+    top: 85vh;
+    left: 24px;
+    gap: 12px;
+}
+
+.end-section__get-help {
+    box-sizing: border-box;
+    width: 202px;
+    height: 47px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #718096;
+}
+
+.get-help__logo {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__border {
+    height: 19.25px;
+    width: 19.25px;
+    padding: auto;
+    border:1px solid #718096;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.end-section__setting {
+    box-sizing: border-box;
+    width: 202px;
+    height: 47px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #718096;
 }
