@@ -1,0 +1,22 @@
+.sidebar {
+    border: 2px solid black;
+    width: 250px;
+    height: 1024px;
+}
+
+.sidebar__logo {
+    border: 2px solid red;
+    width: 132px;
+    height: 28px;
+    position: absolute;
+    top: 44px;
+    left: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+#logo__title {
+    color: #1A202C;
+}
